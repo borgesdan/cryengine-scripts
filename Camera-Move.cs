@@ -53,8 +53,6 @@ namespace CryEngine.Game
                 rotation.YawPitchRoll += new Angles3(0, 0, -0.005f);
 
             camera.Rotation = rotation;
-            
-            //0.005f e 0.05f são valores arbitátrios
 
             //Moficação da posição da câmera
 
@@ -75,7 +73,9 @@ namespace CryEngine.Game
             if (Input.KeyDown(KeyId.NP_7)) //Cima
                 camera.Position += new Vector3(0, 0, 0.05f);
             if (Input.KeyDown(KeyId.NP_1)) //Baixo
-                camera.Position += new Vector3(0, 0, -0.05f);            
+                camera.Position += new Vector3(0, 0, -0.05f);
+
+            //0.005f e 0.05f são valores arbitátrios
         }
-	}
+    }
 }
