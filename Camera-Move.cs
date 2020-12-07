@@ -1,3 +1,4 @@
+//Danilo Borges Santos, 07/12/2020
 //Script de movimentação de uma câmera
 
 using System;
@@ -6,7 +7,7 @@ using CryEngine;
 namespace CryEngine.Game
 {
 	[EntityComponent(Guid="e7857f48-e6ac-59c2-5c16-4164a154c89f")]
-	public class CameraManager : EntityComponent
+	public class CameraMove : EntityComponent
 	{
         //A entidade câmera
 		Entity camera;
@@ -34,7 +35,7 @@ namespace CryEngine.Game
 		/// <param name="frameTime">The time difference between this and the previous frame.</param>
 		protected override void OnUpdate(float frameTime)
 		{
-            //Processo comum de rotação utilizando as entradas do usuário            
+            //Processo simples de rotação utilizando as entradas do usuário            
             
             var rotation = camera.Rotation;
 
