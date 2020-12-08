@@ -7,3 +7,8 @@ e movimentá-la seguindo o seu vetor de direção (propriedade Forward). Assim, 
 Para este trabalho foi criado uma entidade câmera na Sandbox, com o nome "MainCamera", 
 logo as propriedades de rotação e movimentação tem como base essa entidade. 
 De certa forma, se desejar usar a câmera ativa no momento é só utilizar a classe estática "Camera" e suas propriedades de igual nome.
+
+## CONTROLES
+
+* W, S, A, D, R e F no teclado para rotação *
+* Numpad 8, 2, 6, 4, 7 e 1 para movimentação *
